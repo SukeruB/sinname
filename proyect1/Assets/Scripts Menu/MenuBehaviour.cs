@@ -9,6 +9,10 @@ public class MenuBehaviour : MonoBehaviour
     {
         SceneManager.LoadScene("Partida Nueva Menu");
     }
+    public void regresarMenuInicialDesdePartidaNueva()
+    {
+        SceneManager.LoadScene("Menu Inicial");
+    }
     public void configuracionesScene()
     {
         SceneManager.LoadScene("Configuraciones");
